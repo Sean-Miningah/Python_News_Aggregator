@@ -28,19 +28,19 @@ Install the dependencies within the virtual environmnet
 ## Dependencies
 
 \*Latest version of django
-`<addr>` pipinstall django
+`pipinstall django`
 
 \*Beautiful soap
-`<addr>` pipinstall bs4
+`pipinstall bs4`
 
 \*Requests
-`<addr>` pipinstall requests
+`pipinstall requests`
 
 Urllib3
-`<addr>` pipinstall urllib3
+`pipinstall urllib3`
 
 Create django project
-`<addr>` django-admin startproject config .
+`django-admin startproject config .`
 
 From here we will create an application called news
 `<addr>` python manage.py startapp polls
