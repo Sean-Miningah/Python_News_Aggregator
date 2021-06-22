@@ -4,8 +4,9 @@ A web based application that accumilates news article form different blogs and w
 The application was developed in colloration, between Maria and Sean.
 
 The application is build using
-*Django Web Framework
-*HTML, CSS , JS
+
+1. Django Web Framework
+1. HTML, CSS , JS
 
 The application was build on django because of it simple setup and limitless customization options.
 
@@ -18,29 +19,29 @@ Python vesion 3 and pip
 ### Getting started
 
 In your preferred directory create a virtual environment
-`<addr>` virtualenv venv
+`virtualenv venv`
 
 Activate the virtual environment
-`<addr>` source venv/Scripts/activate
+`source venv/Scripts/activate`
 
 Install the dependencies within the virtual environmnet
 
 ## Dependencies
 
-\*Latest version of django
-`pipinstall django`
+- Latest version of django
+  `pipinstall django`
 
-\*Beautiful soap
-`pipinstall bs4`
+- Beautiful soap
+  `pipinstall bs4`
 
-\*Requests
-`pipinstall requests`
+- Requests
+  `pipinstall requests`
 
-Urllib3
-`pipinstall urllib3`
+- Urllib3
+  `pipinstall urllib3`
 
-Create django project
-`django-admin startproject config .`
+- Create django project
+  `django-admin startproject config .`
 
-From here we will create an application called news
-`<addr>` python manage.py startapp polls
+- From here we will create an application called news
+  `python manage.py startapp polls`
