@@ -44,4 +44,4 @@ Install the dependencies within the virtual environmnet
   `django-admin startproject config .`
 
 - From here we will create an application called news
-  `python manage.py startapp polls`
+  `python manage.py startapp news_scraper`
